@@ -1543,16 +1543,17 @@ input::-moz-focus-inner {
 .display-1 {
   font-size: 4.8rem;
   line-height: 1.333;
+ 
 }
 
 .section-intro {
   position: relative;
-  margin-bottom: 12rem;
+  margin-bottom: 5rem;
 }
 
-.section-intro .display-1 {
-  margin-top: 0;
-}
+/* .section-intro .display-1 {
+  
+} */
 
 .section-intro .subhead,
 .section-intro .display-1 {
@@ -2628,7 +2629,7 @@ html.no-csstransitions .hero-content {
 .s-portfolio::before {
   content: "";
   display: block;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(249, 134, 25);
   position: absolute;
   top: 0;
   right: 0;
