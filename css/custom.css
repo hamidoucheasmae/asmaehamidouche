@@ -22,7 +22,7 @@
 
 .hero-hero {
     min-height: 70vh;
-    background: #fff url(../images/HERO-hr.png) center center no-repeat;
+    background: #fff url(../images/hero-hr.png) center center no-repeat;
     background-size: cover;
     position: relative;
   }
