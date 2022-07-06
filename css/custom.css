@@ -1,0 +1,83 @@
+/*-------------------------------
+
+    Custom stylesheet (custom.css)
+
+    Project: Eight Template
+    Version: 1.0
+    Author: By Themanoid
+    Last change: 31 July 2016
+
+    --
+
+    This stylesheet is meant for
+    your own custom styles, on
+    top of The Eight Template
+
+    Happy styling!
+    - Themanoid
+
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.hero-hero {
+    min-height: 70vh;
+    background: #000 url(../images/HERO-hr.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-solicode {
+    min-height: 100vh;
+    background: #000 url(../images/portfolio/solicode-hero.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  /* .hero-visith {
+    min-height: 100vh;
+    background: #000 url(../images/portfolio/visithn.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  } */
+.fav-icon {
+  height: 50px;
+}
+
+  .box-overview {
+    padding: 35px 47px;
+}
+.img-career{
+  height: 423PX;
+  PADDING-LEFT: 120PX;
+}
+.img-career2{
+  height: 423PX;
+  PADDING-LEFT: 85PX;
+}
+
+.h3 .content h3 {
+  color: #F6B906 !important;
+}
+.solicode-p{
+  color: #121D92;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.infotanger-p{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.line{
+  background-color: #121D92;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-hero {
+        min-height: 33vh;
+        background: #000 url(../images/hero-2.png) center center no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+  }
