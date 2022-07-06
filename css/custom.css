@@ -22,7 +22,7 @@
 
 .hero-hero {
     min-height: 70vh;
-    background: #fff url(../images/hero-hr.png) center center no-repeat;
+    background: rgb(255, 255, 255) url(../images/hero-2.png) center center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -75,7 +75,7 @@
 @media screen and (max-width: 768px) {
     .hero-hero {
         min-height: 33vh;
-        background: #000 url(../images/hero-2.png) center center no-repeat;
+        background: rgb(255, 255, 255) url(../images/hero-2.png) center center no-repeat;
         background-size: cover;
         position: relative;
     }
