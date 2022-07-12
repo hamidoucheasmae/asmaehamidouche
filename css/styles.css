@@ -229,7 +229,7 @@ ul.navigation li:hover ul.dropdown {
     bottom: 100%;
     left: 50%;
     margin-left: 0;
-    border-color: transparent transparent #000 transparent;
+    border-color: transparent transparent #F77432 transparent;
     height: 0;
     border-width: 0;
     border-style: solid;
@@ -238,7 +238,7 @@ ul.navigation li:hover ul.dropdown {
     opacity: 0;
   }
   ul.navigation.tapped {
-    background: #000;
+    background: #F77432;
     padding: 30px;
     margin-top: 50px;
   }
@@ -246,6 +246,7 @@ ul.navigation li:hover ul.dropdown {
     border-width: 10px;
     margin-left: -10px;
     opacity: 1;
+  
   }
   ul.navigation.tapped li {
     max-height: 400px;
@@ -284,7 +285,7 @@ ul.navigation li:hover ul.dropdown {
   }
   .nav-trigger .bar {
     height: 1px;
-    background: #000;
+    background: #F77432;
     width: 45px;
     margin: 8px 0;
     -webkit-transition: all .3s;

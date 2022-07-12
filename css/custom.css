@@ -57,7 +57,7 @@
 @media screen and (max-width: 768px) {
     .hero-hero {
         min-height: 33vh;
-        background: rgb(255, 255, 255) url(../images/min-hero.png) center center no-repeat;
+        background: rgb(255, 255, 255) url(../images/min-hero1.png) center center no-repeat;
         background-size: cover;
         position: relative;
     }
