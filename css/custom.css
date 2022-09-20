@@ -4,7 +4,7 @@
 
 .hero-hero {
     min-height: 70vh;
-    background: rgb(255, 255, 255) url(../images/HERO-hr.png) center center no-repeat;
+    background: rgb(255, 255, 255) url(../images/hero-section.png) center center no-repeat;
     background-size: cover;
     position: relative;
   }
