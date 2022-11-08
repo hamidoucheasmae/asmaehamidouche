@@ -4,13 +4,13 @@
 
 .hero-hero {
     min-height: 70vh;
-    background: rgb(255, 255, 255) url(../images/hero-section.png) center center no-repeat;
+    background: rgb(255, 255, 255) url(../images/hero-section-min.png) center center no-repeat;
     background-size: cover;
     position: relative;
   }
   .hero-solicode {
     min-height: 100vh;
-    background: #000 url(../images/portfolio/solicode-hero.jpg) center center no-repeat;
+    background: #000 url(../solicode-hero-min.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -57,7 +57,7 @@
 @media screen and (max-width: 768px) {
     .hero-hero {
         min-height: 33vh;
-        background: rgb(255, 255, 255) url(../images/min-hero1.png) center center no-repeat;
+        background: rgb(255, 255, 255) url(../images/min-hero1-min.png) center center no-repeat;
         background-size: cover;
         position: relative;
     }
