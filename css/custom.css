@@ -4,7 +4,7 @@
 
 .hero-hero {
     min-height: 70vh;
-    background: rgb(255, 255, 255) url(../images/hero-section-min.png) center center no-repeat;
+    background: rgb(255, 255, 255) url(../images/hero-section-min.webp) center center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -57,7 +57,7 @@
 @media screen and (max-width: 768px) {
     .hero-hero {
         min-height: 33vh;
-        background: rgb(255, 255, 255) url(../images/min-hero1-min.png) center center no-repeat;
+        background: rgb(255, 255, 255) url(../images/min-hero1-min.webp) center center no-repeat;
         background-size: cover;
         position: relative;
     }
