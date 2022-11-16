@@ -20,9 +20,10 @@
     background-size: cover;
     position: relative;
   } */
-.fav-icon {
-  height: 50px;
-}
+/* .fav-icon {
+  height: 20% !important;
+  height: auto !important;
+} */
 
   .box-overview {
     padding: 35px 47px;
