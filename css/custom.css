@@ -83,5 +83,6 @@
   }
 
   .hide-h1 {
-    visibility: hidden;
+    visibility: hidden !important;
+    z-index: 1;
   }
