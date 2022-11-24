@@ -84,5 +84,7 @@
 
   .hide-h1 {
     visibility: hidden !important;
+
     z-index: 1;
+    color: #fff;
   }
