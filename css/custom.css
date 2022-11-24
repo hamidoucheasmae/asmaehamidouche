@@ -81,3 +81,7 @@
     height: 100%;
     border: none;
   }
+
+  .hide-h1 {
+    visibility: hidden;
+  }
