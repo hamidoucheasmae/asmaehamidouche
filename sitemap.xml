@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>http://asmaehamidouche.com/index.html</loc>
+  <loc>https://asmaehamidouche.com/index.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/about.html</loc>
+  <loc>https://asmaehamidouche.com/about.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/blog.html</loc>
+  <loc>https://asmaehamidouche.com/blog.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/contact.html</loc>
+  <loc>https://asmaehamidouche.com/contact.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/solicode.html</loc>
+  <loc>https://asmaehamidouche.com/solicode.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/infotanger.html</loc>
+  <loc>https://asmaehamidouche.com/infotanger.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/../index.html</loc>
+  <loc>https://asmaehamidouche.com/../index.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/../about.html</loc>
+  <loc>https://asmaehamidouche.com/../about.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/../blog.html</loc>
+  <loc>https://asmaehamidouche.com/../blog.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/../contact.html</loc>
+  <loc>https://asmaehamidouche.com/../contact.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/../asmae.hamidouche.cv.pdf</loc>
+  <loc>https://asmaehamidouche.com/../asmae.hamidouche.cv.pdf</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
 </url>
 <url>
-  <loc>http://asmaehamidouche.com/./infotanger.html</loc>
+  <loc>https://asmaehamidouche.com/./infotanger.html</loc>
   <priority>0.0</priority>
   <changefreq>always</changefreq>
   <lastmod>2022-12-04</lastmod>
