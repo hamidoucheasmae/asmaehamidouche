@@ -11,6 +11,7 @@
   gtag('config', 'UA-243672034-2');
 </script>
 
+    <title>Contact - Asmae Hamidouche UX/UI Designer Portfolio</title>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -18,14 +19,13 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-5CTRZ8R');</script>
   <!-- End Google Tag Manager -->
-    <title>About - Asmae Hamidouche UX/UI Designer Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../css/core.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
     <!-- inject:css-->
- 
+    <!-- endinject -->
     <link rel="icon" type="image/png" href="../fav-icon-asmae-hamidouche2.png">
     <script src="../js/assets/jquery.js"></script>
   </head>
@@ -37,7 +37,7 @@
     <div class="container-fluid">
       <header>
         <div class="container">
-          <div class="col-md-3"><a href="../index.html" class="brand"><img alt="Your Alternative text" src="../fav-icon-asmae-hamidouche2.png"></a></div>
+          <div class="col-md-3"><a href="../index.html" class="brand"><img class="fav-icon" alt="Asmae Hamidouche logo" src="../fav-icon-asmae-hamidouche2.png"></a></div>
           <div class="col-md-6 text-center">
             <div class="nav-trigger">
               <div class="bar"></div>
@@ -45,66 +45,84 @@
               <div class="bar"></div>
             </div>
             <ul class="navigation">
-              <li><a href="../index.html">Work</a>
-               
+              <li><a href="../index.html" >Work</a>
+                <!-- <ul class="dropdown">
+                  <li><a href="../index.html">all projects</a></li>
+                  <li><a href="../work-masonry.html">Solicode.co</a></li>
+                  <li><a href="../visithoceima.html">visithoceuma</a></li>
+                
+                </ul> -->
               </li>
-              <li> <a href="../pages/about.html" class="active">About</a>
+              <li> <a href="../about.html">About</a>
               </li>
-              <li> <a href="../pages/blog.html">Blog</a>
-               
+              <li> <a href="../blog.html" >Blog</a>
+             
               </li>
-              <li> <a href="../pages/contact.html" >Contact</a>
+              <li> <a href="../contact.html" class="active">Contact</a>
                 
               </li>
             </ul>
           </div>
-          <div class="col-md-3">
          
-          </div>
         </div>
       </header>
-      <section class="hero text-center">
+
+      <section class="hero">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <h1>HELLO THERE!</h1>
-              <p>I’m a UX & UI Designer with a background in graphic design and economics. Currently living in Tangier - Morocco, I speak about design and marketing. As a designer, I aim to use creativity with analytical thinking to deliver intuitive solutions for all users.</p>
-              <a href="../asmae.hamidouche.cv.pdf"><button  class="btn btn-default">CHECK OUT MY RESUME</button><span class="p-md"></span></a> 
+            <div class="col-md-6">
+              <h1> <span class="typed">Hello</span></h1>
             </div>
           </div>
-        </div>
-  
-
-      <section class="content">
-        <div class="container">
-          <div class="row mt-xl">
-            <div class="col-md-6 col-md-offset-3 text-center">
-         
-              <h3>Other Things I Like, To do and see ...</h3>
-            
+          <div class="row">
+            <div class="col-md-6">
+              <!-- The contact form-->
+              <form id="form" action="/php/mail.php" class="form row mt-md">
+                <div class="col-md-6">
+                  <div class="tag">What's your name? *</div>
+                  <input required type="text" name="name" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <div class="tag">Phone number</div>
+                  <input type="text" name="phone" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <div class="tag">E-mail address *</div>
+                  <input required type="email" name="email" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <div class="tag">Website URL</div>
+                  <input type="text" name="website" class="form-control">
+                </div>
+                <div class="col-md-12">
+                  <div class="tag">Tell me what's up! *</div>
+                  <textarea required name="message" class="form-control"></textarea>
+                  <button id="send" type="submit" class="btn btn-default">Send message</button><span class="p-md">* These fields are required</span>
+                </div>
+              </form>
             </div>
-          </div>
-          <div class="row mt-lg">
-            <div class="col-md-3 text-center"><img src="../images/like/kickboxing-min.png" class="fadein mb-sm">
-              
-            </div>
-            <div class="col-md-3 text-center"><img src="../images/like/friends-min.png" class="fadein mb-sm mt-xl">
-             
-            </div>
-            <div class="col-md-3 text-center"><img src="../images/like/art-min.png" class="fadein mb-sm">
-           
-            </div>
-            <div class="col-md-3 text-center"><img src="../images/like/art2-min.png" class="fadein mb-sm mt-xl">
-             
+            <div class="col-md-5 col-md-offset-1 content">
+              <div class="mt-lg"><img src="../images/contact/contact-pic-min.png" class="mt-sm mb-md">
+                <p> Always love to get in touch with new people. Whether you are a potential customer, partner or someone else, I love to hear from you!</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- The type animation script-->
+      <script>$(function(){$(".typed").typed({strings: ["Hello", "Hola","مرحبا", "こんにちは", "Ciao", "Aloha", "Hallo"],typeSpeed: 130,loop: true  });});</script>
 
-      <footer class="bottom">
+      <footer>
         <div class="container">
           <div class="row">
-         
+
+          </div>
+        </div>
+      </footer>
+      <footer class="bottom ">
+        <div class="container">
+          <div class="row">
+           
             <div class="col-md-6 text-center">
               <p> &copy; Asmae Hamidouche. All rights reserved.</p>
             </div>
