@@ -86,18 +86,19 @@
   color: #121D92;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  font-size: 2rem;
 }
 
 .h1{
   color: #F6B906;
-  font-size: 5em;
+  font-size: 7em;
   font-family: 'Italiana', serif;
 
 }
   .h2{
-    color: #F6B906;
+    color: #121D92;
     font-family: 'Italiana', serif;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .hide-h1 {
