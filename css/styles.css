@@ -327,6 +327,7 @@ header {
     }
     .hero h1 {
       font-size: 3.5em;
+      color: #000;
     }
   }
   
@@ -826,7 +827,7 @@ header {
     font-weight: 400;
     padding: 16px 25px 15px;
     -webkit-transition: background .3s;
-    transition: background .3s;
+    transition: background 0.3s;
     font-size: 13px;
   }
   

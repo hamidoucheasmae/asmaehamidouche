@@ -16652,20 +16652,29 @@ body.no-lines .l1, body.no-lines .l2, body.no-lines .l3 {
   09. Typography
 */
 body {
-  color: #000;
-  font-family: "Heebo", "Helvetica Neue", Helvetica, sans-serif;
+  color: #121D92;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Italiana', sans-serif;
 }
 
-h1.underline:after, h2.underline:after, h3.underline:after, h4.underline:after {
+h1.underline:after, h2.underline:after,  h3.underline:after {
   content: '';
-  width: 30px;
+  width: 500px;
   height: 0;
   margin: 20px 0;
-  border-top: 1px solid #555;
+  border-top: 3px solid #F6B906;
+  display: block;
+}
+
+h4.underline:after {
+    content: '';
+  width: 137px;
+  height: 0;
+  margin: 20px 0;
+  border-top: 3px solid #F6B906;
   display: block;
 }
 
@@ -16728,6 +16737,7 @@ span.italic {
 .hero h1 {
   font-size: 5em;
   margin-bottom: 0.75em;
+  color: #000;
 }
 
 .content h1 {
