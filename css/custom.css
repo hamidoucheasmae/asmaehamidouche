@@ -82,11 +82,15 @@
     border: none;
   }
 .p-general{
-  margin-top: 25px;
+  margin-top: 15px;
   color: #121D92;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 2rem;
+}
+.h22{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
 
 .h1{
@@ -97,8 +101,8 @@
 }
   .h2{
     color: #121D92;
-    font-family: 'Italiana', serif;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
   }
 
   .hide-h1 {
