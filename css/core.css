@@ -16650,7 +16650,21 @@ body.no-lines .l1, body.no-lines .l2, body.no-lines .l3 {
 
 /*
   09. Typography
+
+
+
 */
+
+.h22{
+  color: #121d92 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+}
+.h23{
+  color: #121d92 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+} 
 body {
   color: #090909;
   font-family: 'Montserrat', sans-serif;
