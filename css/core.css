@@ -16668,11 +16668,20 @@ h1.underline:after, h2.underline:after,  h3.underline:after {
   border-top: 3px solid #F6B906;
   display: block;
 }
+.h23.underline:after {
+ 
+  content: '';
+width: 100px;
+height: 0;
+margin: 20px 0;
+border-top: 3px solid #F6B906;
+display: block;
+}
 
 .h22.underline:after {
  
   content: '';
-width: 180px;
+width: 145px;
 height: 0;
 margin: 20px 0;
 border-top: 3px solid #F6B906;
