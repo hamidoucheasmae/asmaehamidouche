@@ -16681,6 +16681,7 @@ h1.underline:after, h2.underline:after,  h3.underline:after {
   margin: 20px 0;
   border-top: 3px solid #F6B906;
   display: block;
+ 
 }
 .h23.underline:after {
  
