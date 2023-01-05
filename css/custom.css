@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
+
+.h1-solicode{
+  color: #F6B906 !important;
+  font-size: 10em !important;
+  font-family: 'Italiana', serif !important;
+
+}
 .hero-hero {
     min-height: 70vh;
     background: rgb(255, 255, 255) url(../images/hero-section-min.webp) center center no-repeat;
@@ -54,6 +61,13 @@
   background-color: #121D92;
 }
 
+.p-general{
+  margin-top: 15px !important;
+  color: #121D92;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2rem !important;
+}
 
 @media screen and (max-width: 768px) {
     .hero-hero {
@@ -86,7 +100,7 @@
   color: #121D92;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
 }
 /* .h22{
   color: #121d92 !important;
@@ -98,13 +112,13 @@
   font-family: 'Montserrat', sans-serif !important;
   font-size: 20px !important;
 } */
-
-/* .h1{
+.h1-solicode{
   color: #F6B906 !important;
-  font-size: 7em;
+  font-size: 5em !important;
   font-family: 'Italiana', serif !important;
 
-} */
+}
+
   .h2{
     color: #121D92 !important;
     font-family: 'Montserrat', sans-serif !important;
@@ -117,3 +131,58 @@
 
     color: #fff !important;
   }
+
+/* slider  */
+* {
+  box-sizing: border-box;
+}
+
+.slider1 {
+ background-color: #fff !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+/* 
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+}
+
+#gallery {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.newPic {
+  color: white;
+  padding: 5px 20px;
+  background-color: #68B3AF;
+  border-radius: 25px;
+  border: solid 2px #fff;
+  height: 50px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 5px 5px 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.newPic:hover {
+  background-color: #518a8c;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+/* end slider  */
+
+.content h1 {
+  margin-bottom: -96px;
+}
