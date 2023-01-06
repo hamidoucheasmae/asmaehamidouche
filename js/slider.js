@@ -39,3 +39,40 @@ function createDragger() {
 function moveMask() {
   TweenMax.set("#theSquare", {attr: {x: this.x - 950}});
 }
+
+
+// sursor effect 
+
+// let cursor = document.getElementById(".cursor");
+// const onMouseMove = (event) => {
+//   cursor.current.style.left = event.pageX + "px";
+//   cursor.current.style.top = event.pageY + "px";
+
+//   if (event.target.hasAttribute("cursor-type")) {
+//     let cursorSize = event.target.getAttribute("cursor-type");
+//     cursor.classList.add(cursorSize);
+//   } else {
+//     cursor.classList = "";
+//   }
+// };
+
+// document.addEventListener("mousemove", onMouseMove);
+
+// let cursor = document.getElementById("cursor");
+// const onMouseMove = (event) => {
+//   cursor.style.left = event.pageX + "px";
+//   cursor.style.top = event.pageY + "px";
+
+//   if (event.target.hasAttribute("cursor-type")) {
+//     let cursorSize = event.target.getAttribute("cursor-type");
+//     cursor.classList.add(cursorSize);
+//   } else {
+//     cursor.classList = "";
+//   }
+// };
+
+// document.addEventListener("mousemove", onMouseMove);
+
+
+
+

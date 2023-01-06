@@ -35,6 +35,9 @@
   .box-overview {
     padding: 35px 47px;
 }
+.box-overview-test {
+  padding: 5px 5px;
+}
 .img-career{
   height: 423PX;
   PADDING-LEFT: 120PX;
@@ -186,3 +189,41 @@
 .content h1 {
   margin-bottom: -96px;
 }
+
+
+/* cursor  */
+.cursor {
+position: fixed;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: #fff;
+transition: 0.1s;
+transform: translate(-50%,-50%);
+pointer-events: none;
+transition: 0.35s ease width, 0.35s ease height, 0.35s ease border,
+      0.35s ease background;
+border: solid 1px rgba(255, 255, 255, 0.2);
+/* pointer-events: none;
+    width: 3rem;
+    height: 3rem;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.35s ease width, 0.35s ease height, 0.35s ease border,
+      0.35s ease background;
+    transform: translate(-50%, -50%); */
+}
+
+h3:hover ~ .cursor {
+  width: 5rem;
+    height: 5rem;
+  border: solid 1px transparent;
+  background: rgba(247, 116, 50, 0.678);
+}
+
+/* hover view   */
+
+
