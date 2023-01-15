@@ -59,6 +59,7 @@
   color: #000;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  font-size: 16px !important;
 }
 .line{
   background-color: #121D92;
@@ -188,6 +189,7 @@
 
 .content h1 {
   margin-bottom: -96px;
+  /* font-size: 4em !important; */
 }
 
 

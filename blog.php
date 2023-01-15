@@ -1,94 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243672034-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-243672034-2');
-</script>
-
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5CTRZ8R');</script>
-  <!-- End Google Tag Manager -->
-    <title>Blog - Asmae Hamidouche UX/UI Designer Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../css/core.css">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    <link rel="stylesheet" type="text/css" href="../css/custom.css">
-    <!-- inject:css-->
-    <!-- endinject -->
-    <link rel="icon" type="image/png" href="../fav-icon-asmae-hamidouche2.png">
-  <script src="../js/assets/jquery.js"></script>
-  </head>
-  <body class="smooth-transition">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CTRZ8R"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-    <div class="container-fluid">
-      <header>
-        <div class="container">
-          <div class="col-md-3"><a href="index.html" class="brand"><img alt="Asmae Hamidouche logo" src="ux-asmae.svg" style="  width: 7rem; "></a></div>
-          <div class="col-md-6 text-center">
-            <div class="nav-trigger">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-            </div>
-            <ul class="navigation">
-              <li><a href="/index.html" >Work</a>
-                <!-- <ul class="dropdown">
-                  <li><a href="../index.html">all projects</a></li>
-                  <li><a href="../solicode.html">Solicode.co</a></li>
-                  <li><a href="../visithoceima.html">visithoceuma</a></li>
-                
-                </ul> -->
-              </li>
-              <li> <a href="../about.html">About</a>
-              </li>
-              <li> <a href="../blog.html" class="active">Blog</a>
-             
-              </li>
-           
-             <li><a href="../contact.html">Contact</a></li>
-                 
-              
-            
-            </ul>
-          </div>
-         
-        </div>
-      </header>
+     <!-- php header-->
+     <?php include('./php/header.php'); ?>
  
       <section class="grid-container">
         <div class="container">
           <div class="row">
             <div class="col-md-12"><a href="#" class="btn btn-default filter-trigger">Filter</a></div>
             <div class="col-md-12 grid classic col-4"><a href="https://www.linkedin.com/posts/asmae-hamidouche_whatsapp-good-ux-poor-ux-activity-6913039867551588352-MTjm?utm_source=linkedin_share&utm_medium=member_desktop_web" class="item ux-topic">
-                <div class="thumb"><img alt="Your Alternative text" src="../images/blog/wtsp-min.png">
+                <div class="thumb"><img alt="Your Alternative text" src="images/blog/wtsp-min.png">
                   <div class="btn btn-default">More</div>
                 </div>
                 <div class="caption">
                 
                   <h4>Whatsapp Good UX & Poor UX</h4>
                 </div></a><a href="https://www.linkedin.com/posts/asmae-hamidouche_what-makes-a-good-user-experience-activity-6905074295371104256-5V2j?utm_source=linkedin_share&utm_medium=member_desktop_web" class="item ux-topic">
-                <div class="thumb"><img alt="Your Alternative text" src="../images/blog/good_ux-min.png">
+                <div class="thumb"><img alt="Your Alternative text" src="images/blog/good_ux-min.png">
                   <div class="btn btn-default">More</div>
                 </div>
                 <div class="caption">
                 
                   <h4>What make good user experience</h4>
                 </div></a><a href="https://www.instagram.com/p/CZiArHjrNgU/?utm_source=ig_web_copy_link" class="item marketing-topic">   
-                <div class="thumb"><img alt="Your Alternative text" src="../images/blog/DDB-Worldwide-min.png"> 
+                <div class="thumb"><img alt="Your Alternative text" src="images/blog/DDB-Worldwide-min.png"> 
                   <div class="btn btn-default">More</div>
                 </div>
                 <div class="caption">
@@ -96,21 +29,21 @@
                   <h4>How to stand out | Volkswagen & DDB Worldwide</h4>
 
                 </div></a><a href="https://www.linkedin.com/posts/asmae-hamidouche_difference-between-user-end-user-activity-6910196202806349826-BP8F?utm_source=linkedin_share&utm_medium=member_desktop_web" class="item ux-topic">
-                <div class="thumb"><img alt="Your Alternative text" src="../images/blog/difference-user-ebd-user-min.png">
+                <div class="thumb"><img alt="Your Alternative text" src="images/blog/difference-user-ebd-user-min.png">
                   <div class="btn btn-default">More</div>
                 </div>
                 <div class="caption">
                 
                   <h4>Difference Between user & End User</h4>
                 </div></a><a href="https://www.linkedin.com/posts/asmae-hamidouche_how-to-get-started-in-ux-activity-6901840148913602560-6PZS?utm_source=linkedin_share&utm_medium=member_desktop_web" class="item ux-topic">
-                <div class="thumb"><img alt="Your Alternative text" src="../images/blog/how-to-get-started-min.png">
+                <div class="thumb"><img alt="Your Alternative text" src="images/blog/how-to-get-started-min.png">
                   <div class="btn btn-default">More</div>
                 </div>
                 <div class="caption">
                 
                   <h4>How to get started UX ?</h4>
                 </div></a><a href="https://www.instagram.com/p/CYbx99CA2YN/?utm_source=ig_web_copy_link" class="item marketing-topic">
-                <div class="thumb"><img alt="Your Alternative text" src="../images/blog/branding-vs-marketing-min.png">
+                <div class="thumb"><img alt="Your Alternative text" src="images/blog/branding-vs-marketing-min.png">
                   <div class="btn btn-default">More</div>
                 </div>
                 <div class="caption">
@@ -139,32 +72,8 @@
           </div> -->
         </div>
       </section>
-      <footer>
-        <div class="container">
-          <div class="row">
-
-          </div>
-        </div>
-      </footer>
-      <footer class="bottom ">
-        <div class="container">
-          <div class="row">
-           
-            <div class="col-md-6 text-center">
-              <p> &copy; Asmae Hamidouche. All rights reserved.</p>
-            </div>
-         
-            <div class="col-md-6 text-center">
-              <ul class="social-links">
-                <li> <a href="https://www.linkedin.com/in/asmae-hamidouche/" class="fa fa-linkedin"></a></li>
-                <li> <a href="https://www.instagram.com/ux.asmae/" class="fa fa-instagram"></a></li>
-                <li> <a href="https://twitter.com/AsmaeHamidouche" class="fa fa-twitter"></a></li>
-                <li> <a href="https://www.behance.net/asmaehamidouche" class="fa fa-behance"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <!-- php footer-->
+      <?php include('./php/footer.php'); ?>
 
       <div class="filter-container">
         <div class="container">
@@ -180,7 +89,7 @@
         </div>
       </div>
     </div>
-    <script src="../js/assets/bootstrap.js"></script>
+    <!-- <script src="../js/assets/bootstrap.js"></script>
     <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
     <script src="../js/assets/validation.js"></script>
     <script src="../js/assets/packery.pkgd.min.js"></script>
@@ -189,7 +98,7 @@
     <script src="../modules/titan-slider/titan-slider.js"></script>
     <script src="../modules/tera-lightbox/tera-lightbox.js"></script>
     <script src="../js/assets/animsition.js"></script>
-    <script src="../js/functions.js"></script>
+    <script src="../js/functions.js"></script> -->
 
     <script type="text/javascript">
       _linkedin_partner_id = "4615802";
