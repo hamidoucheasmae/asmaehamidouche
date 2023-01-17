@@ -1,5 +1,8 @@
 <?php 
 
+// define('title','');
+// define('slug','');
+
 $navItems = array (
         array (
             slug => "index.php",

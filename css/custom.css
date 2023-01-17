@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
-
+.container-slider {
+  width: auto;
+  height: 1100px;
+}
 .h1-solicode{
   color: #F6B906 !important;
   font-size: 10em !important;
@@ -229,3 +232,36 @@ h3:hover ~ .cursor {
 /* hover view   */
 
 
+/* 404 css */
+
+body {
+	position: fixed;
+	height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.mask {
+	position: absolute;
+	z-index: 2;
+	background: white;
+	height: 100vh;
+	width: 100vw;
+	mix-blend-mode: screen;
+	/* display: none; */
+}
+
+svg {
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

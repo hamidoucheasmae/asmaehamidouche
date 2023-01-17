@@ -1,82 +1,22 @@
 
-// slider 
 
-var $buttons = $(".newPic");
-var startY = 0;
-var initTimeline = new TimelineMax({onComplete: createDragger, delay: 1});
+<div class="mask">
+	<svg xmlns="http://www.w3.org/2000/svg" width="1026" height="364" viewBox="0 0 1026 364">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #172b4d;
+      }
+    </style>
+  </defs>
+  <path id="Tracé_4773" data-name="Tracé 4773" class="cls-1" d="M347-145.5H295V-205H201.5v59.5h-71L273-350H170.5L13.5-131.5V-67h185V0H295V-67h52ZM521.5,7c89,0,154-66.5,154-182s-65-182-154-182C432-357,367-290.5,367-175S432,7,521.5,7Zm0-81c-32,0-55-27.5-55-101s23-101,55-101C553-276,576-248.5,576-175S553-74,521.5-74Zm518-71.5h-52V-205H894v59.5H823L965.5-350H863L706-131.5V-67H891V0h96.5V-67h52Z" transform="translate(-13.5 357)"/>
+</svg>
 
-initTimeline.to("#dragger", 1, {x: 500});
-initTimeline.to("#theSquare", 1, {attr: {x: -450}}, 0);
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.20.12/babel.min.js" integrity="sha512-blX5ceZKjgkqetMkMOuLaQrU+urYyY65ByVBC5MqERt/f6WeG4jVhXuWxnJmGFtK7aOZlL/MqMtRUUnyrG2q0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
 
-$buttons.click(slide);
-
-function slide() {
-  var butIndex = $buttons.index($(this));
-  var newY = butIndex * 700;
-  if (newY === startY || TweenMax.isTweening(".allPics")) {
-    return;
-  } else {
-    TweenMax.to(".allPics", 1, {y: -newY});
-    TweenMax.to(".allCaptions", 1, {y: -newY / 7});
-    startY = newY;
-  }
-}
-
-function createDragger() {
-  Draggable.create("#dragger", {
-    type: "x",
-    bounds: {
-      minX: 0,
-      maxX: 1000
-    },
-    throwProps: true,
-    edgeResistance: 1,
-    onDrag: moveMask,
-    onThrowUpdate: moveMask
-  });
-}
-
-function moveMask() {
-  TweenMax.set("#theSquare", {attr: {x: this.x - 950}});
-}
-
-
-// sursor effect 
-
-// let cursor = document.getElementById(".cursor");
-// const onMouseMove = (event) => {
-//   cursor.current.style.left = event.pageX + "px";
-//   cursor.current.style.top = event.pageY + "px";
-
-//   if (event.target.hasAttribute("cursor-type")) {
-//     let cursorSize = event.target.getAttribute("cursor-type");
-//     cursor.classList.add(cursorSize);
-//   } else {
-//     cursor.classList = "";
-//   }
-// };
-
-// document.addEventListener("mousemove", onMouseMove);
-
-// let cursor = document.getElementById("cursor");
-// const onMouseMove = (event) => {
-//   cursor.style.left = event.pageX + "px";
-//   cursor.style.top = event.pageY + "px";
-
-//   if (event.target.hasAttribute("cursor-type")) {
-//     let cursorSize = event.target.getAttribute("cursor-type");
-//     cursor.classList.add(cursorSize);
-//   } else {
-//     cursor.classList = "";
-//   }
-// };
-
-// document.addEventListener("mousemove", onMouseMove);
-
-
-
-// js 404 
-
+    
 var vertex = `
 		attribute vec2 uv;
 		attribute vec2 position;
@@ -278,3 +218,5 @@ var fragment = `
 	}
 }
 
+
+</script>

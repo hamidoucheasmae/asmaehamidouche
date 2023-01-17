@@ -9,7 +9,8 @@
         </div>
 
 <!-- begin slider -->
-            <svg id="gallery" class="slider1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800" width="1100" height="800">
+<div class="container-slider">
+            <svg id="gallery" class="slider1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800" >
               <defs>
                 <mask id="masterMask">
                   <rect x="50" y="100" width="1000" height="600" fill="#fff" />
@@ -53,6 +54,8 @@
                 </g>
               </g>
             </svg>
+
+            </div>
 <!-- end -->
           
 
