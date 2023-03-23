@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+.h1-solicode{
+  color: #F6B906 !important;
+  font-size: 10em !important;
+  font-family: 'Italiana', serif !important;
+
+}
+.hero-hero {
+    min-height: 70vh;
+    background: rgb(255, 255, 255) url(../images/hero-section-min.webp) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-solicode {
+    min-height: 100vh;
+    background: #000 url(../solicode-hero-min.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  /* .hero-visith {
+    min-height: 100vh;
+    background: #000 url(../images/portfolio/visithn.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  } */
+/* .fav-icon {
+  height: 20% !important;
+  height: auto !important;
+} */
+
+  .box-overview {
+    padding: 35px 47px;
+}
+.box-overview-test {
+  padding: 5px 5px;
+}
+.img-career{
+  height: 423PX;
+  PADDING-LEFT: 120PX;
+}
+.img-career2{
+  height: 423PX;
+  PADDING-LEFT: 85PX;
+}
+
+.h3 .content h3 {
+  color: #F6B906 !important;
+}
+.solicode-p{
+  color: #121D92;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.infotanger-p{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.line{
+  background-color: #121D92;
+}
+
+.p-general{
+  margin-top: 15px !important;
+  color: #121D92;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2rem !important;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-hero {
+        min-height: 33vh;
+        background: rgb(255, 255, 255) url(../images/min-hero1-min.webp) center center no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+  }
+  .container-iframe {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+.p-general{
+  margin-top: 15px;
+  color: #121D92;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem !important;
+}
+/* .h22{
+  color: #121d92 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+}
+.h23{
+  color: #121d92 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+} */
+.h1-solicode{
+  color: #F6B906 !important;
+  font-size: 5em !important;
+  font-family: 'Italiana', serif !important;
+
+}
+
+  .h2{
+    color: #121D92 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px !important;
+  }
+
+  .hide-h1 {
+    visibility: hidden !important;
+
+
+    color: #fff !important;
+  }
+
+/* slider  */
+* {
+  box-sizing: border-box;
+}
+
+.slider1 {
+ background-color: #fff !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+/* 
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+}
+
+#gallery {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.newPic {
+  color: white;
+  padding: 5px 20px;
+  background-color: #68B3AF;
+  border-radius: 25px;
+  border: solid 2px #fff;
+  height: 50px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 5px 5px 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.newPic:hover {
+  background-color: #518a8c;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+/* end slider  */
+
+.content h1 {
+  margin-bottom: -96px;
+}
+
+
+/* cursor  */
+.cursor {
+position: fixed;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: #fff;
+transition: 0.1s;
+transform: translate(-50%,-50%);
+pointer-events: none;
+transition: 0.35s ease width, 0.35s ease height, 0.35s ease border,
+      0.35s ease background;
+border: solid 1px rgba(255, 255, 255, 0.2);
+/* pointer-events: none;
+    width: 3rem;
+    height: 3rem;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.35s ease width, 0.35s ease height, 0.35s ease border,
+      0.35s ease background;
+    transform: translate(-50%, -50%); */
+}
+
+h3:hover ~ .cursor {
+  width: 5rem;
+    height: 5rem;
+  border: solid 1px transparent;
+  background: rgba(247, 116, 50, 0.678);
+}
+
+/* hover view   */
+
+

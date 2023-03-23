@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/hover.scss">
+    <link rel="stylesheet" href="../css/costum.css">
+    <link rel="stylesheet" href="../css/core.css">
+</head>
+<body>
+    
+
+    <div class="row hero text-center">
+        <div class="col-md-12 ">
+          <div id="cursor"></div>
+          <h1 class="hover-link"  cursor-type="hover">Artinove - Give Me Your Feedback</h1>
+  
+      </div>
+
+      <script>
+        let cursor = document.getElementById('cursor');
+        const onMouseMove = (event) => {
+          cursor.style.left = event.pageX + "px";
+          cursor.style.top = event.pageY + "px";
+  
+          if (event.target.hasAttribute("cursor-type")) {
+            let cursorSize = event.target.getAttribute("cursor-type");
+            cursor.classList.add(cursorSize);
+          } else {
+            cursor.classList = "";
+          }
+        };
+  
+        document.addEventListener("mousemove", onMouseMove);
+      </script>
+</body>
+</html>

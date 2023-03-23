@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="378" height="377" viewBox="0 0 378 377">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-3 {
+        fill: #fd792c;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-6 {
+        fill: #b0e4e8;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path-6);
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-7);
+      }
+
+      .cls-11 {
+        clip-path: url(#clip-path-8);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Tracé_1528" data-name="Tracé 1528" d="M216,631H594v377H216Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Tracé_1527" data-name="Tracé 1527" d="M161.5,712.148,512.336,575.84,648.645,926.676,297.809,1062.99Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Tracé_1531" data-name="Tracé 1531" d="M243,657H567V981H243Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Tracé_1530" data-name="Tracé 1530" d="M196.063,727.371l300.6-116.793L613.461,911.184l-300.606,116.8Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Tracé_1536" data-name="Tracé 1536" d="M391,694.109H518V892H391Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Tracé_1538" data-name="Tracé 1538" d="M421,712H522.152V868H421Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="Tracé_1540" data-name="Tracé 1540" d="M288.152,712H394V881H288.152Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <path id="Tracé_1542" data-name="Tracé 1542" d="M322,891H497v53.609H322Zm0,0"/>
+    </clipPath>
+  </defs>
+  <g id="ux_asmae_cloture" data-name="ux asmae cloture" transform="translate(-216 -631)">
+    <g id="Groupe_2233" data-name="Groupe 2233" class="cls-1">
+      <g id="Groupe_2232" data-name="Groupe 2232" class="cls-2">
+        <path id="Tracé_1526" data-name="Tracé 1526" class="cls-3" d="M336.918,644C240.035,681.637,192.012,790.688,229.652,887.57s146.692,144.9,243.575,107.262S618.133,848.141,580.488,751.258,433.8,606.355,336.918,644"/>
+      </g>
+    </g>
+    <g id="Groupe_2235" data-name="Groupe 2235" class="cls-4">
+      <g id="Groupe_2234" data-name="Groupe 2234" class="cls-5">
+        <path id="Tracé_1529" data-name="Tracé 1529" class="cls-6" d="M346.367,668.977a161.246,161.246,0,1,0,208.7,91.906,161.243,161.243,0,0,0-208.7-91.906"/>
+      </g>
+    </g>
+    <path id="Tracé_1532" data-name="Tracé 1532" class="cls-7" d="M326.113,827.633l-3.8,9.742h86.609l4.035-9.742Zm0,0"/>
+    <path id="Tracé_1533" data-name="Tracé 1533" class="cls-7" d="M399.531,737.6,296.34,912.43h11.683l97.2-165.614Zm0,0"/>
+    <path id="Tracé_1534" data-name="Tracé 1534" class="cls-7" d="M355.883,879.293l63.363-107.16,5.3,8.656-56.164,98.5Zm0,0"/>
+    <g id="Groupe_2236" data-name="Groupe 2236" class="cls-8">
+      <path id="Tracé_1535" data-name="Tracé 1535" class="cls-7" d="M398.105,694.109,517.914,891.957h-13.57L391.508,704.547Zm0,0"/>
+    </g>
+    <g id="Groupe_2237" data-name="Groupe 2237" class="cls-9">
+      <path id="Tracé_1537" data-name="Tracé 1537" class="cls-7" d="M421.5,712.668l7.508,12.406s47.851,9.473,69.609,53.336,9.008,76.5,9.008,76.5l7.441,12.27s20-41-7.636-95.043C484.324,729.684,441.367,715.066,421.5,712.668Zm0,0"/>
+    </g>
+    <g id="Groupe_2238" data-name="Groupe 2238" class="cls-10">
+      <path id="Tracé_1539" data-name="Tracé 1539" class="cls-7" d="M308.211,869.172l-6.859,11.242s-28.364-45.8-1.754-101.836c0,0,23.765-54.93,85.851-65.937,3.406,3.156,7.629,9.679,7.629,9.679s-53.594,4.282-82.316,58.543C288.121,824.8,308.211,869.172,308.211,869.172Zm0,0"/>
+    </g>
+    <g id="Groupe_2239" data-name="Groupe 2239" class="cls-11">
+      <path id="Tracé_1541" data-name="Tracé 1541" class="cls-7" d="M328.422,900.914l-5.633,9.547s32.68,35.1,84.191,34.129c54.926.488,89.219-43.676,89.219-43.676l-6.023-9.734s-26.27,40.285-79.309,42.683C360.359,937.273,328.422,900.914,328.422,900.914Zm0,0"/>
+    </g>
+  </g>
+</svg>

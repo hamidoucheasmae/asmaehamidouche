@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="837" viewBox="0 0 1920 837">
+  <defs>
+    <clipPath id="clip-define">
+      <rect width="1920" height="837"/>
+    </clipPath>
+  </defs>
+  <g id="define" clip-path="url(#clip-define)">
+    <rect width="1920" height="837" fill="#fff"/>
+    <text id="Define-2" data-name="Define" transform="translate(275 113)" fill="#f6b906" font-size="200" font-family="Italiana-Regular, Italiana"><tspan x="0" y="186">Define</tspan></text>
+    <line id="Line_42" data-name="Line 42" x2="252" transform="translate(285 456)" fill="none" stroke="#f6b906" stroke-linecap="square" stroke-width="8"/>
+    <text id="Main_Problems" data-name="Main Problems" transform="translate(284 474)" fill="#121d92" font-size="33" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="32">Main Problems</tspan></text>
+    <text id="People_looking_about_the_centre_can_t_get_a_certain_kind_of_information_about_the_centre_programme_and_the_staff_as_well_as_the_absence_of_colour_palette_and_consistency." data-name="People looking about the centre can’t get a certain kind of information about the centre, programme, and the staff as well as the absence of colour palette and consistency." transform="translate(275 594)" fill="#121d92" font-size="35" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="34">People looking about the centre can’t get a certain kind of information about the </tspan><tspan x="0" y="77">centre, programme, and the staff as well as the absence of colour palette and </tspan><tspan x="0" y="120">consistency.</tspan></text>
+  </g>
+</svg>

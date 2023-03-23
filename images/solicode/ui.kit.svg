@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1209" viewBox="0 0 1920 1209">
+  <defs>
+    <filter id="Rectangle_2264" x="137" y="216" width="407" height="385" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#f6b906" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2264-2" x="497" y="216" width="407" height="385" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-color="#121d92" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-ui.kit">
+      <rect width="1920" height="1209"/>
+    </clipPath>
+  </defs>
+  <g id="ui.kit" clip-path="url(#clip-ui.kit)">
+    <rect width="1920" height="1209" fill="#fff"/>
+    <g id="Rectangle_2284" data-name="Rectangle 2284" transform="translate(-1 -24)" fill="#3b45b9" stroke="#707070" stroke-width="1">
+      <rect width="1920" height="68" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="67" fill="none"/>
+    </g>
+    <line id="Line_99" data-name="Line 99" x2="201" transform="translate(197 42)" fill="none" stroke="#f6b906" stroke-linecap="square" stroke-width="8"/>
+    <text id="Ui_kit" data-name="Ui kit" transform="translate(196 59)" fill="#3b45b9" font-size="33" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="32">Ui kit</tspan></text>
+    <g id="Group_2955" data-name="Group 2955" transform="translate(-693 -3529)">
+      <g id="Group_2903" data-name="Group 2903" transform="translate(890 3805)">
+        <g transform="matrix(1, 0, 0, 1, -197, -276)" filter="url(#Rectangle_2264)">
+          <rect id="Rectangle_2264-3" data-name="Rectangle 2264" width="257" height="235" rx="30" transform="translate(197 276)" fill="#f6b906"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2954" data-name="Group 2954" transform="translate(-333 -3529)">
+      <g id="Group_2903-2" data-name="Group 2903" transform="translate(890 3805)">
+        <g transform="matrix(1, 0, 0, 1, -557, -276)" filter="url(#Rectangle_2264-2)">
+          <rect id="Rectangle_2264-4" data-name="Rectangle 2264" width="257" height="235" rx="30" transform="translate(557 276)" fill="#3b45b9"/>
+        </g>
+      </g>
+    </g>
+    <text id="Poppins" transform="translate(197 688)" fill="#f6b906" font-size="60" font-family="Poppins-Regular, Poppins" letter-spacing="0.05em"><tspan x="0" y="63">Poppins</tspan></text>
+    <text id="Lato" transform="translate(1037 688)" fill="#f6b906" font-size="60" font-family="Poppins-Regular, Poppins" letter-spacing="0.05em"><tspan x="0" y="63">Lato</tspan></text>
+    <text id="Aa_Bb_Cc_Dd_Ee_Ff_Gg_Hh_Ii_Jj_Kk_Ll_Mm_Nn_Oo_Pp_Qq_Rr_Ss_Tt_Uu_Ww_Xx_Yy_Zz_123456789" data-name="Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll
+Mm Nn Oo Pp Qq Rr Ss Tt Uu 
+Ww Xx Yy Zz
+123456789" transform="translate(196 830)" fill="#3b45b9" font-size="40" font-family="Poppins-Regular, Poppins"><tspan x="0" y="42">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll</tspan><tspan x="0" y="102">Mm Nn Oo Pp Qq Rr Ss Tt Uu </tspan><tspan x="0" y="162">Ww Xx Yy Zz</tspan><tspan x="0" y="222">123456789</tspan></text>
+    <text id="Aa_Bb_Cc_Dd_Ee_Ff_Gg_Hh_Ii_Jj_Kk_Ll_Mm_Nn_Oo_Pp_Qq_Rr_Ss_Tt_Uu_Ww_Xx_Yy_Zz_123456789-2" data-name="Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll
+Mm Nn Oo Pp Qq Rr Ss Tt Uu 
+Ww Xx Yy Zz
+123456789" transform="translate(1037 830)" fill="#3b45b9" font-size="40" font-family="Lato-Regular, Lato"><tspan x="0" y="39">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll</tspan><tspan x="0" y="87">Mm Nn Oo Pp Qq Rr Ss Tt Uu </tspan><tspan x="0" y="135">Ww Xx Yy Zz</tspan><tspan x="0" y="183">123456789</tspan></text>
+  </g>
+</svg>
